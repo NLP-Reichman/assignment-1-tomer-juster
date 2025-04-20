@@ -1,0 +1,27 @@
+{
+  "test_preprocess": {
+    "vocab_length": 1804
+  },
+  "test_build_lm": {
+    "english_2_gram_length": 747,
+    "english_3_gram_length": 8238,
+    "french_3_gram_length": 8285,
+    "spanish_3_gram_length": 8468
+  },
+  "test_eval": {
+    "en_on_en": 33.73,
+    "en_on_fr": 63.96,
+    "en_on_tl": 79.54,
+    "en_on_nl": 65.54
+  },
+  "test_match": "KeyError('source')",
+  "test_generate": {
+    "english_2_gram": "",
+    "english_3_gram": "",
+    "english_4_gram": "",
+    "spanish_2_gram": "",
+    "spanish_3_gram": "",
+    "french_2_gram": "",
+    "french_3_gram": ""
+  }
+}
